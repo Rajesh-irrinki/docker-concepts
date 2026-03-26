@@ -118,7 +118,7 @@ Docker version 29.3.1
 | `docker images`                | List downloaded images           |
 | `docker pull nginx`            | Download nginx image             |
 | `docker create nginx`          | Creates the nginx container      |
-| `docker start nginx`           | Start nginx container            |
+| `docker start <container-id>`  | Start nginx container            |
 | `docker rm <container-id>`     | Removes container                |
 | `docker rmi <container-id>`    | Removes image                    |
 | `docker run nginx`             | It will Pull, create & Run nginx |
