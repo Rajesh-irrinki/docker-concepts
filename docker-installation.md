@@ -111,18 +111,19 @@ Docker version 29.3.1
 
 ## Useful Docker Commands
 
-| Command                        | Description                      |
-| ------------------------------ | ---------------------------------|
-| `docker ps`                    | List running containers          |
-| `docker ps -a`                 | List all containers              |
-| `docker images`                | List downloaded images           |
-| `docker pull nginx`            | Download nginx image             |
-| `docker create nginx`          | Creates the nginx container      |
-| `docker start <container-id>`  | Start nginx container            |
-| `docker rm <container-id>`     | Removes container                |
-| `docker rmi <image-id>`        | Removes image                    |
-| `docker run nginx`             | It will Pull, create & Run nginx |
-
+| Command                              | Description                       |
+| -------------------------------------|-----------------------------------|
+| `docker ps`                          | List running containers           |
+| `docker ps -a`                       | List all containers               |
+| `docker images`                      | List downloaded images            |
+| `docker pull nginx`                  | Download nginx image              |
+| `docker create nginx`                | Creates the nginx container       |
+| `docker start <container-id>`        | Start nginx container             |
+| `docker rm <container-id>`           | Removes container                 |
+| `docker rmi <image-id>`              | Removes image                     |
+| `docker run nginx`                   | It will Pull, create & Run nginx  |
+| `docker run -d -p 8080:80 nginx`     | Exposes container on 8080 port    |
+| `docker exec -it container-id nginx` | interactive shell inside container| 
 ---
 
 ## Troubleshooting
